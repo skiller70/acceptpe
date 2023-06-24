@@ -3,6 +3,9 @@ import Landing from './pages/Landing'
 import { Routes, Route } from "react-router-dom"
 import Home from './pages/Home'
 import Navbar from './components/Navbar'
+import Epos from './pages/Epos'
+import Neo from './pages/Neo'
+import ContactUs from './pages/ContactUs'
 
 function Parent() {
 
@@ -51,6 +54,9 @@ console.log(scrollP)
                 <Routes>
                     <Route path='/' Component={Home} />
                     <Route path='/landing' Component={Landing} />
+                    <Route path='/epos' Component={Epos} />
+                    <Route path='/neo' Component={Neo} />
+                    <Route path='/contact' Component={ContactUs} />
 
                 </Routes>
             </div>
