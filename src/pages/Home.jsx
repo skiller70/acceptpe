@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import hero from "/hero.gif"
 import heroMain from "/heroMain.gif"
 import main from "/main.gif"
@@ -16,6 +16,11 @@ import dash from "/dash.png"
 import mainHero from "/mainHero.gif"
 
 function Home() {
+
+  
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
       <div className='relative  pb-10 '>
@@ -77,7 +82,7 @@ function Home() {
           </div>
 
           <div className=' flex  justify-center'>
-            <AcceptCard title="100+ payment options" text="Accept payments through credit cards, debit cards, UPI, wallets, EMI & BNPL with Easebuzz payment gateway" img={card} />
+            <AcceptCard title="100+ payment options" text="Accept payments through credit cards, debit cards, UPI, wallets, EMI & BNPL with Acceptpe payment gateway" img={card} />
           </div>
 
           {/* <AcceptCard title="iFrame checkout"  text="Embed the hosted checkout page on your website or app easily and offer seamless checkouts for your customers"/> */}

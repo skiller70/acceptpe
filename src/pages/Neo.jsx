@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 // import neoHero from "/neoHero.gif"
 
 
@@ -12,19 +12,24 @@ import payoutChart from "/payoutChart.jpg"
 
 
 
-
 function Neo() {
+  
+
+
+useEffect(() => {
+  window.scrollTo(0, 0)
+}, [])
   return (
     <>
       {/* MAIN HERO  */}
-      <div className='relative h-screen flex bg-[#FBFBFB] px-20'>
+      <div className='relative h-screen flex flex-col md:flex-row px-4 bg-[#FBFBFB] md:px-20'>
 
-        <div className='flex-1  flex flex-col  justify-center'>
+        <div className='flex-1 order-last md:order-first  flex flex-col  justify-center'>
           <h1 className='text-5xl   font-semibold ' >Business banking made smart with</h1>
           <br />
           <p>Get a Current Account with connected banking, Payment Gateway with 100+ modes, Payouts with Zero-cooling Period, Expense Management with Prepaid Cards, and Working Capital for your business growth needs.</p>
         </div>
-        <div className='flex-1' >
+        <div className='flex-1 ' >
           {/* <video src={mobilevideo} controls autostart autoPlay alt="neo hero" type="video/mp4" /> */}
           <img src={mobileFinal} />
         </div>

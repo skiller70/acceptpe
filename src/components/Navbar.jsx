@@ -67,9 +67,9 @@ function Navbar(props) {
                                 <div className={`${productDrop ? "" : "hidden"} absolute -right-30 z-10 mt-4 w-56 p-2 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none `} role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabIndex="-1">
                                     <div className="py-1" role="none">
 
-                                        <Link to="/landing" className="text-[#ECBD00] flex gap-x-4    px-4 py-2 text-sm" role="menuitem" tabIndex="-1" id="menu-item-0"><img className='' src={gateWay} alt="gatWay" width={30} height={30} /> Payment Gateway</Link>
+                                        <Link to="/gateway" className="text-[#ECBD00] flex gap-x-4    px-4 py-2 text-sm" role="menuitem" tabIndex="-1" id="menu-item-0"><img className='' src={gateWay} alt="gatWay" width={30} height={30} /> Payment Gateway</Link>
                                         <Link to="/epos" className="text-[#ECBD00]  flex gap-x-4   px-4 py-2 text-sm" role="menuitem" tabIndex="-1" id="menu-item-1"><img className='' src={epos} alt="gatWay" width={30} height={30} /> ePOS </Link>
-                                        <Link to="/neo" className="text-[#ECBD00]  flex gap-x-4  px-4 py-2 text-sm" role="menuitem" tabIndex="-1" id="menu-item-2"><img className='' src={neo} alt="gatWay" width={30} height={30} /> Payout
+                                        <Link to="/payout" className="text-[#ECBD00]  flex gap-x-4  px-4 py-2 text-sm" role="menuitem" tabIndex="-1" id="menu-item-2"><img className='' src={neo} alt="gatWay" width={30} height={30} /> Payout
                                         </Link>
 
                                     </div>
@@ -141,9 +141,9 @@ function Navbar(props) {
             <div className={` ${navToggle ? "" : "hidden"} w-[100%] bg-white text-[#606C5D] py-10  font-bold fixed  z-50`}>
                 <div className=' text-[#ECBD00] w-[100%] flex h-full justify-center items-center flex-col gap-y-6'>
                     <Link>Home</Link>
-                    <Link>Payment Gateway</Link>
-                    <Link>ePOS</Link>
-                    <Link>AcceptPe Neo</Link>
+                    <Link to="/gateway">Payment Gateway</Link>
+                    <Link to="/epos">ePOS</Link>
+                    <Link to="/payout">Payout</Link>
                     <Link>About us </Link>
                     <Link>Blog </Link>
                     <Link to="/contact">Contact us</Link>

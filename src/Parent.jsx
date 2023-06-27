@@ -53,9 +53,9 @@ console.log(scrollP)
 
                 <Routes>
                     <Route path='/' Component={Home} />
-                    <Route path='/landing' Component={Landing} />
+                    <Route path='/gateway' Component={Landing} />
                     <Route path='/epos' Component={Epos} />
-                    <Route path='/neo' Component={Neo} />
+                    <Route path='/payout' Component={Neo} />
                     <Route path='/contact' Component={ContactUs} />
 
                 </Routes>

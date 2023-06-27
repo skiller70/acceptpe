@@ -20,9 +20,11 @@ export default function Footer() {
 
           <div className="flex gap-y-2   flex-col">
             <h1 className=" font-bold">Products</h1>
-            <p>Payment Gateway</p>
-            <p>ePOS</p>
-            <p>Neo</p>
+            
+         
+            <Link to="/gateway">Payment Gateway</Link>
+            <Link to="/epos">ePOS</Link>
+            <Link to="/payout">Payout</Link>
           </div>
 
 
@@ -39,7 +41,7 @@ export default function Footer() {
               <h1 className="font-bold" >Company</h1>
               <p className=" font-semibold">About Us</p>
               <p className=" font-semibold">blogs</p>
-              <p className=" font-semibold">contact us</p>
+             
 
 
             </div>

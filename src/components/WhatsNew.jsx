@@ -79,7 +79,7 @@ function WhatsNew() {
                         <img src={AdvancePenny} alt="" width={40} />
                         <h1 className=' font-bold'>Multilingual transaction view</h1>
                         <br />
-                        <p className='w-[75%] font-medium'>Track your payments in language you prefer, as the Easebuzz dashboard supports multilingual transaction view</p>
+                        <p className='w-[75%] font-medium'>Track your payments in language you prefer, as the Acceptpe dashboard supports multilingual transaction view</p>
                     </div>
                 </SwiperSlide>
 

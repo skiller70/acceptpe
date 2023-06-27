@@ -15,7 +15,7 @@ function WeareDeveloper() {
                 <div className=' text-2xl font-semibold'>We are
                     developer centric   </div>
                 <br />
-                <div className='md:w-[50%]'>Digitise your online payments and financial operations by easily integrating plug-and-play, developer-friendly APIs into your own tech stack, website, apps, ERPs and CRMs. Sign up and get started in minutes with Easebuzz payment solution platform.</div>
+                <div className='md:w-[50%]'>Digitise your online payments and financial operations by easily integrating plug-and-play, developer-friendly APIs into your own tech stack, website, apps, ERPs and CRMs. Sign up and get started in minutes with Acceptpe payment solution platform.</div>
                 <br />
                 <button className=' px-6 py-2 bg-[#ECBD00] rounded-md text-white  font-semibold '>View API docs</button>
             </div>

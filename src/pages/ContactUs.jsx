@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faPhone, faAt } from "@fortawesome/free-solid-svg-icons"
@@ -6,6 +6,10 @@ import Footer from '../components/Footer'
 
 
 function ContactUs() {
+  
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <>
             {/* Our team is here to help     */}
@@ -45,7 +49,7 @@ function ContactUs() {
                     <div className='bg-[white] px-4  text-gray-500  h-56 rounded-xl shadow-lg'>
                         <h1 className='font-semibold text-xl py-4 '>Human Resources</h1>
                         <div className='font-medium flex flex-col gap-y-2'>
-                            <p className=' flex gap-x-2 items-center text-md'><FontAwesomeIcon icon={faAt} />hr@easebuzz.in</p>
+                            <p className=' flex gap-x-2 items-center text-md'><FontAwesomeIcon icon={faAt} />info@acceptpe.com</p>
                             <p>Drop in your Resume if you want to be a part of our amazing team.</p>
                         </div>
                     </div>
