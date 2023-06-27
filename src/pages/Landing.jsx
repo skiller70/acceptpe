@@ -59,7 +59,7 @@ export default function Landing() {
       <div> <WhyAccept /></div>
       </div>
       <div> <WeareDeveloper /></div>
-      <div><WhatsNew /></div>
+      {/* <div><WhatsNew /></div> */}
       <div><Footer /></div>`
     </>
   );

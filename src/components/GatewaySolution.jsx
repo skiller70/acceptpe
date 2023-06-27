@@ -9,7 +9,7 @@ function GatewaySolution() {
             {/* Payment gateway integration */}
             {/* Payment gateway integration is simple and easy */}
                 <div>
-                <h1 className='text-4xl px-10 md:px-0  md:text-center font-semibold  text-[#ECBD00]'>Why choose Acceptpe payment gateway solution?</h1>
+                <h1 className='text-4xl px-10 md:px-0  md:text-center font-semibold  text-[#ECBD00]'>Why choose AcceptPe payment gateway solution?</h1>
                 <div className='flex-col md:flex-row flex md:mx-10 md:py-20 gap-y-6 md:gap-y-0'>
           
           <div className='flex-1 order-last mx-4'>

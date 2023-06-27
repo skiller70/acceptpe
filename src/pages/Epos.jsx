@@ -43,7 +43,7 @@ function Epos() {
 
 
       <div className='mt-36 md:mt-0'>
-        <p className=' relative text-center  text-3xl  font-semibold pb-6'>Acceptpe ePOS is for You</p>
+        <p className=' relative text-center  text-3xl  font-semibold pb-6'>AcceptPe ePOS is for You</p>
         <div className='hidden md:flex justify-center'>
           <img src={eposShop} alt="" />
         </div>

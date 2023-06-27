@@ -33,7 +33,7 @@ function Home() {
             <h1 className=' text-2xl md:text-3xl lg:text-5xl font-bold  text-left lg:w-[95%] leading-none  md:leading-tight lg:leading-normal'>  Safe-secure-seamless payment  solution for your business </h1>
 
             <br />
-            <p className='   font-medium '>We are one of India’s leading payment solutions platform, serving 85,000+ businesses with full-stack technology solutions to accept payments, send payouts & manage end-to-end financial operations with ease.
+            <p className='   font-medium '>We are one of India’s leading payment solutions platform, serving 5,000+ businesses with full-stack technology solutions to accept payments, send payouts & manage end-to-end financial operations with ease.
 
               Sign up n</p>
           </div>
@@ -64,7 +64,7 @@ function Home() {
           <h1 className='text-[#ECBD00] text text-3xl md:text-3xl lg:text-5xl font-bold  text-left lg:w-[95%] leading-none  md:leading-tight lg:leading-normal'>  Safe-secure-seamless payment  solution for your business </h1>
 
           <br />
-          <p className=' text-[#ECBD00]  font-medium '>We are one of India’s leading payment solutions platform, serving 85,000+ businesses with full-stack technology solutions to accept payments, send payouts & manage end-to-end financial operations with ease.
+          <p className=' text-[#ECBD00]  font-medium '>We are one of India’s leading payment solutions platform, serving 5,000+ businesses with full-stack technology solutions to accept payments, send payouts & manage end-to-end financial operations with ease.
 
             Sign up n</p>
         </div>
@@ -72,28 +72,30 @@ function Home() {
 
       {/* WHY ACCEPT PE */}
       <div className=' W-[100%] py-10 mx-10'>
-        <div className=' text-center font-bold text-2xl text-[#ECBD00] pb-10  '>Why Accept Pe</div>
-        <div className=' grid  grid-cols-1 gap-y-6 md:grid-cols-2 lg:grid-cols-2'>
+        <div className=' text-center font-bold text-2xl text-[#ECBD00] pb-10   '>Why AcceptPe</div>
+        <div className=' flex justify-center items-center'>
+        <div className=' grid md:gap-x-20  grid-cols-1 gap-y-6 md:grid-cols-2 lg:grid-cols-2'>
 
-          <div className='flex justify-center'>   <AcceptCard title="Best payment success rate" text="Higher payment success rates for enhanced customer experience and improved business revenues" img={chart} /> </div>
+<div className='flex justify-center'>   <AcceptCard title="Best payment success rate" text="Higher payment success rates for enhanced customer experience and improved business revenues" img={chart} /> </div>
 
-          <div className='justify-center'>
-            <AcceptCard title="Easy integration" text="Developer friendly APIs and plugins to ease the integration process supported by detailed API documentation" img={setting} />
-          </div>
+<div className='justify-center'>
+  <AcceptCard title="Easy integration" text="Developer friendly APIs and plugins to ease the integration process supported by detailed API documentation" img={setting} />
+</div>
 
-          <div className=' flex  justify-center'>
-            <AcceptCard title="100+ payment options" text="Accept payments through credit cards, debit cards, UPI, wallets, EMI & BNPL with Acceptpe payment gateway" img={card} />
-          </div>
+<div className=' flex  justify-center'>
+  <AcceptCard title="100+ payment options" text="Accept payments through credit cards, debit cards, UPI, wallets, EMI & BNPL with AcceptPe payment gateway" img={card} />
+</div>
 
-          {/* <AcceptCard title="iFrame checkout"  text="Embed the hosted checkout page on your website or app easily and offer seamless checkouts for your customers"/> */}
-          <div className=' justify-center'>
-            <AcceptCard title="Unified dashboard" text="Dashboard with real-time transaction data, customisable reports, and detailed payment insights" img={dash} />
-          </div>
-          {/* <AcceptCard title="Dedicated technical support" text="24*7 technical support to help you with your integrations and any queries" /> */}
-
-
+{/* <AcceptCard title="iFrame checkout"  text="Embed the hosted checkout page on your website or app easily and offer seamless checkouts for your customers"/> */}
+<div className=' justify-center'>
+  <AcceptCard title="Unified dashboard" text="Dashboard with real-time transaction data, customisable reports, and detailed payment insights" img={dash} />
+</div>
+{/* <AcceptCard title="Dedicated technical support" text="24*7 technical support to help you with your integrations and any queries" /> */}
 
 
+
+
+</div>
         </div>
 
       </div>
@@ -106,7 +108,7 @@ function Home() {
       <div className=' bg-[#ECBD00] text-white px-10 flex-col md:flex-row flex py-16 items-center '>
 
         <div className='flex-1'>
-          <h1 className=' text-3xl '> Seamless checkouts with Accept pe online payment gateway</h1>
+          <h1 className=' text-3xl '> Seamless checkouts with AcceptPe online payment gateway</h1>
           <br />
           <p className=' text-lg'>Embed the hosted checkout page on your website or app easily and offer seamless checkouts for your customers</p>
         </div>

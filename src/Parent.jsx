@@ -6,6 +6,7 @@ import Navbar from './components/Navbar'
 import Epos from './pages/Epos'
 import Neo from './pages/Neo'
 import ContactUs from './pages/ContactUs'
+import Privacy from './pages/Privacy'
 
 function Parent() {
 
@@ -57,7 +58,8 @@ console.log(scrollP)
                     <Route path='/epos' Component={Epos} />
                     <Route path='/payout' Component={Neo} />
                     <Route path='/contact' Component={ContactUs} />
-
+                    <Route path='/privacy' Component={Privacy} />
+        
                 </Routes>
             </div>
         </div>

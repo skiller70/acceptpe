@@ -6,55 +6,57 @@ import Footer from '../components/Footer'
 
 
 function ContactUs() {
-  
+
     useEffect(() => {
         window.scrollTo(0, 0)
-      }, [])
+    }, [])
     return (
         <>
             {/* Our team is here to help     */}
             <div>
                 <h1 className=' text-2xl lg:text-3xl  text-center py-16  text-gray-600'> Our team is here to help</h1>
-                <div className=' gap-y-16 md:gap-y-0 grid md:grid-cols-3  lg:grid-cols-4 grid-cols-1 mx-20 md:mx-36 lg:mx-56 gap-x-10'>
+                <div className=' flex justify-center'>
+                <div className=' gap-y-16 md:gap-y-0 grid md:grid-cols2  lg:grid-cols-3 grid-cols-1 mx-20 md:mx-36 lg:mx-56 gap-x-10'>
                     {/* ----------------------------------------- */}
                     <div className='bg-[#ECBD00] px-4  text-white h-56 rounded-xl shadow-lg'>
                         <h1 className=' font-semibold text-xl py-4 '>Support</h1>
                         <div className='font-medium flex flex-col gap-y-2'>
-                            <p className='flex gap-x-2 items-center text-md'><FontAwesomeIcon icon={faPhone} />01144799354 </p>
+                            <p className='flex gap-x-2 items-center text-md'><FontAwesomeIcon icon={faPhone} />‎+91 22 4963 9334 </p>
 
-                            <p className=' flex gap-x-2 items-center text-md'><FontAwesomeIcon icon={faAt} />info@acceptpe.com</p>
+                            <p className=' flex gap-x-2 items-center text-md'><FontAwesomeIcon icon={faAt} />faizan@acceptpe.com</p>
                         </div>
                     </div>
                     {/* ----------------------------------------- */}
-                    <div className='bg-[white] px-4  text-gray-500  h-56 rounded-xl shadow-lg'>
+                    {/* <div className='bg-[white] px-4  text-gray-500  h-56 rounded-xl shadow-lg'>
                         <h1 className='font-semibold text-xl py-4 '>Grievances</h1>
                         <div className='font-medium flex flex-col gap-y-2'>
                             <p className='flex gap-x-2 items-center text-md'><FontAwesomeIcon icon={faPhone} />35008670 </p>
 
                             <p className=' flex gap-x-2 items-center text-md'><FontAwesomeIcon icon={faAt} />info@acceptpe.com</p>
 
-                            <p>Anshumman Joshi  </p>
+                            <p>Himanshu Sharma  </p>
                         </div>
-                    </div>
+                    </div> */}
                     {/* ----------------------------------------- */}
-                    <div className='bg-[#ECBD00] px-4   text-white h-56 rounded-xl shadow-lg'>
+                    <div className=' bg-[white] px-4  text-gray-500  h-56 rounded-xl shadow-lg'>
                         <h1 className='font-semibold text-xl py-4 '>Partner Program</h1>
                         <div className='font-medium flex flex-col gap-y-2'>
-                            <p className='flex gap-x-2 items-center text-md'><FontAwesomeIcon icon={faAt} />info@acceptpe.com </p>
+                            <p className='flex gap-x-2 items-center text-md'><FontAwesomeIcon icon={faAt} />himanshu@acceptpe.com </p>
 
                             <p className=' flex gap-x-2 items-center text-md'>For partner related queries contact us</p>
                         </div>
                     </div>
                     {/* ----------------------------------------- */}
-                    <div className='bg-[white] px-4  text-gray-500  h-56 rounded-xl shadow-lg'>
+                    <div className='bg-[#ECBD00] px-4   text-white h-56 rounded-xl shadow-lg'>
                         <h1 className='font-semibold text-xl py-4 '>Human Resources</h1>
                         <div className='font-medium flex flex-col gap-y-2'>
-                            <p className=' flex gap-x-2 items-center text-md'><FontAwesomeIcon icon={faAt} />info@acceptpe.com</p>
+                            <p className=' flex gap-x-2 items-center text-md'><FontAwesomeIcon icon={faAt} />faizan@acceptpe.com</p>
                             <p>Drop in your Resume if you want to be a part of our amazing team.</p>
                         </div>
                     </div>
 
 
+                </div>
                 </div>
             </div>
             {/* Our team is here to help     */}

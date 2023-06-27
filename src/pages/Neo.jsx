@@ -8,17 +8,18 @@ import BankingPayment from '../components/BankingPayment'
 import mobileFinal from "/mobileFinal.gif"
 import Footer from '../components/Footer'
 import payoutChart from "/payoutChart.jpg"
+import Highly from '../components/Highly'
 
 
 
 
 function Neo() {
-  
 
 
-useEffect(() => {
-  window.scrollTo(0, 0)
-}, [])
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
       {/* MAIN HERO  */}
@@ -44,20 +45,27 @@ useEffect(() => {
         <BankingPayment />
       </div>
 
+
+
+
       {/* Banking Payments Accounting */}
 
-<div>
-<h1 className=' text-3xl text-center'>Banking the Payout Way</h1>
-<br />
-<p className=' text-center'>Powering new age businesses with Integrated & Comprehensive Current Account for managing Banking, Payments, Expenses and Working Capital.</p>
-<br />
-<br />
-  <div className=' px-16'>
-    <img src={payoutChart}/>
-  </div>
-</div>
+      {/* <div>
+        <h1 className=' text-3xl text-center'>Banking the Payout Way</h1>
+        <br />
+        <p className=' text-center'>Powering new age businesses with Integrated & Comprehensive Current Account for managing Banking, Payments, Expenses and Working Capital.</p>
+        <br />
+        <br />
+        <div className=' px-16'>
+          <img src={payoutChart} />
+        </div>
+      </div> */}
 
-      <Footer/>
+
+<div>
+  <Highly/>
+</div>
+      <Footer />
     </>
   )
 }

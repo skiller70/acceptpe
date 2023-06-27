@@ -20,8 +20,8 @@ export default function Footer() {
 
           <div className="flex gap-y-2   flex-col">
             <h1 className=" font-bold">Products</h1>
-            
-         
+
+
             <Link to="/gateway">Payment Gateway</Link>
             <Link to="/epos">ePOS</Link>
             <Link to="/payout">Payout</Link>
@@ -41,7 +41,7 @@ export default function Footer() {
               <h1 className="font-bold" >Company</h1>
               <p className=" font-semibold">About Us</p>
               <p className=" font-semibold">blogs</p>
-             
+
 
 
             </div>
@@ -52,14 +52,14 @@ export default function Footer() {
           </div>
 
           <div className=" flex gap-y-2   flex-col  text-center"><h1 className=" font-bold">Resource</h1>
-          <Link to="/contact" className=" font-semibold">Contact Us
-          </Link>
-          <p className=" font-semibold">Terms and Conditions</p>
-          <p className=" font-semibold">Privacy</p>
-          
-          
-           </div>
-        
+            <Link to="/contact" className=" font-semibold">Contact Us
+            </Link>
+            <p className=" font-semibold">Terms and Conditions</p>
+            <Link to="/privacy" >Privacy</Link>
+
+
+          </div>
+
         </div>
 
         {/* FOOTER LINK */}
