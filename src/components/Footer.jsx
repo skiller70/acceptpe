@@ -39,7 +39,8 @@ export default function Footer() {
 
             <div className=" flex gap-y-2   flex-col ">
               <h1 className="font-bold" >Company</h1>
-              <p className=" font-semibold">About Us</p>
+              <Link to="/aboutus">About Us</Link>
+            
               <p className=" font-semibold">blogs</p>
 
 

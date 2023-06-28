@@ -98,7 +98,7 @@ function Navbar(props) {
                             <div className={`${companyDrop ? "" : "hidden"} absolute right-0 z-10 mt-4 w-36 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none `} role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabIndex="-1">
                                 <div className="py-1" role="none">
 
-                                    <Link className="text-[#ECBD00]  block px-4 py-2 text-sm" role="menuitem" tabIndex="-1" id="menu-item-0">About Us</Link>
+                                    <Link to="/aboutus" className="text-[#ECBD00]  block px-4 py-2 text-sm" role="menuitem" tabIndex="-1" id="menu-item-0">About Us</Link>
                                     <Link className="text-[#ECBD00]  block px-4 py-2 text-sm" role="menuitem" tabIndex="-1" id="menu-item-1">Blogs </Link>
                                     <Link to="/contact" className="text-[#ECBD00]  block px-4 py-2 text-sm" role="menuitem" tabIndex="-1" id="menu-item-2">Contact Us
                                     </Link>
@@ -144,7 +144,7 @@ function Navbar(props) {
                     <Link to="/gateway">Payment Gateway</Link>
                     <Link to="/epos">ePOS</Link>
                     <Link to="/payout">Payout</Link>
-                    <Link>About us </Link>
+                    <Link to="/aboutus">About us </Link>
                     <Link>Blog </Link>
                     <Link to="/contact">Contact us</Link>
                 </div>

@@ -9,6 +9,7 @@ import mobileFinal from "/mobileFinal.gif"
 import Footer from '../components/Footer'
 import payoutChart from "/payoutChart.jpg"
 import Highly from '../components/Highly'
+import InstantPay from '../components/InstantPay'
 
 
 
@@ -64,6 +65,11 @@ function Neo() {
 
 <div>
   <Highly/>
+</div>
+
+
+<div>
+  <InstantPay/>
 </div>
       <Footer />
     </>

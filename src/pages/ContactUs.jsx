@@ -16,7 +16,7 @@ function ContactUs() {
             <div>
                 <h1 className=' text-2xl lg:text-3xl  text-center py-16  text-gray-600'> Our team is here to help</h1>
                 <div className=' flex justify-center'>
-                <div className=' gap-y-16 md:gap-y-0 grid md:grid-cols2  lg:grid-cols-3 grid-cols-1 mx-20 md:mx-36 lg:mx-56 gap-x-10'>
+                <div className=' gap-y-16 md:gap-y-0 grid md:grid-cols2  lg:grid-cols-3 grid-cols-1 md:mx-20 mx-8 lg:mx-56 gap-x-10'>
                     {/* ----------------------------------------- */}
                     <div className='bg-[#ECBD00] px-4  text-white h-56 rounded-xl shadow-lg'>
                         <h1 className=' font-semibold text-xl py-4 '>Support</h1>

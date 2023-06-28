@@ -1,5 +1,5 @@
 import React from 'react'
-import accpetBack from "/whyAcceptBack.png"
+
 import plug from "/Plug-and-play APIs.png"
 import secure from "/secure.png"
 import success from "/success.png"

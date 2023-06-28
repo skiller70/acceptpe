@@ -7,6 +7,7 @@ import Epos from './pages/Epos'
 import Neo from './pages/Neo'
 import ContactUs from './pages/ContactUs'
 import Privacy from './pages/Privacy'
+import AboutUs from './pages/AboutUs'
 
 function Parent() {
 
@@ -30,7 +31,6 @@ function Parent() {
 
 
 
-    console.log(scrollP)
 
     // METHODS
     const handleScroll = () => {
@@ -59,6 +59,7 @@ console.log(scrollP)
                     <Route path='/payout' Component={Neo} />
                     <Route path='/contact' Component={ContactUs} />
                     <Route path='/privacy' Component={Privacy} />
+                    <Route path='/aboutus' Component={AboutUs} />
         
                 </Routes>
             </div>
