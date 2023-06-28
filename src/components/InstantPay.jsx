@@ -1,4 +1,7 @@
 import React, { useState } from 'react'
+import quick from "/quick.png"
+import bulkP from "/bulkP.png"
+import payoutP from "/payoutP.png"
 
 function InstantPay() {
 
@@ -7,7 +10,7 @@ function InstantPay() {
 
 
     return (
-        <div className=' px-16'>
+        <div className=' px-8 md:px-16'>
             <h1 className=' text-3xl'>Make instant payouts in real-time!</h1>
             <br />
             <div className='hidden md:flex  font-semibold '> <div className=' flex gap-x-6' ><button onClick={() => { setPaymentMethod("quick") }} className={` py-3 border-[#ECBD00]  ${paymentMethod == "quick" ? "border-b-4 " : ""}'`}>Quick Transfer</button> <button onClick={() => { setPaymentMethod("Bulk") }} className={` py-3 border-[#ECBD00]  ${paymentMethod == "Bulk" ? "border-b-4 " : ""}'`}>Bulk Payouts</button> <button onClick={() => { setPaymentMethod("Payouts") }} className={` py-3 border-[#ECBD00]  ${paymentMethod == "Payouts" ? "border-b-4 " : ""}'`}>Payouts API</button></div> </div>
@@ -17,6 +20,18 @@ function InstantPay() {
 
             <div className='hidden md:flex items-center justify-center'>
                 <div className=' flex-1'>
+                <div className={` ${paymentMethod == "quick"?"flex":"hidden"}`}>
+                <img src={quick}/>
+                </div>
+
+                <div className={` ${paymentMethod == "Bulk"?"flex":"hidden"}`}>
+                <img src={bulkP}/>
+                </div>
+
+                <div className={` ${paymentMethod == "Payouts"?"flex":"hidden"}`}>
+                <img src={payoutP}/>
+                </div>
+             
 
                 </div>
                 <div className='flex-1'>
@@ -55,7 +70,7 @@ function InstantPay() {
                     </div>
 
                     <div className=' flex-1'>
-
+                    <img src={quick}/>
                     </div>
                 </div>
 
@@ -69,7 +84,7 @@ function InstantPay() {
                     </div>
 
                     <div className=' flex-1'>
-
+                    <img src={bulkP}/>
                     </div>
                 </div>
 
@@ -86,7 +101,8 @@ function InstantPay() {
                     </div>
 
                     <div className=' flex-1'>
-
+                    <img src={payoutP}/>
+                
                     </div>
                 </div>
 

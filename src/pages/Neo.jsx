@@ -10,8 +10,8 @@ import Footer from '../components/Footer'
 import payoutChart from "/payoutChart.jpg"
 import Highly from '../components/Highly'
 import InstantPay from '../components/InstantPay'
-
-
+import payoutM from "/payoutM.gif"
+import payoutmain from "/payoutmain.gif"
 
 
 function Neo() {
@@ -24,7 +24,7 @@ function Neo() {
   return (
     <>
       {/* MAIN HERO  */}
-      <div className='relative h-screen flex flex-col md:flex-row px-4 bg-[#FBFBFB] md:px-20'>
+      <div className='relative h-screen flex flex-col md:flex-row px-4  md:px-20'>
 
         <div className='flex-1 order-last md:order-first  flex flex-col  justify-center'>
           <h1 className='text-5xl   font-semibold ' >Business banking made smart with</h1>
@@ -33,7 +33,7 @@ function Neo() {
         </div>
         <div className='flex-1 ' >
           {/* <video src={mobilevideo} controls autostart autoPlay alt="neo hero" type="video/mp4" /> */}
-          <img src={mobileFinal} />
+          <img src={payoutmain} />
         </div>
       </div>
 

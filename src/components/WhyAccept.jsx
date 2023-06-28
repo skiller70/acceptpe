@@ -9,17 +9,15 @@ import onBoarding from "/onBoarding.png"
 
 
 function WhyAccept() {
+
+
+
     return (
         <>
 
             <div className='relative '>
 
-
-
-
-
-
-                <div className='text-black flex-col h-[100%]     w-[100%]  px-[8%] flex   md:justify-evenly items-center'>
+                    <div className='text-black flex-col h-[100%]     w-[100%]  px-[8%] flex   md:justify-evenly items-center'>
                     <h1 className=' text-3xl font-semibold'>Why AcceptPe ?</h1>
                     <br />
                     <br />

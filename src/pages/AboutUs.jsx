@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import aboutus from "/aboutus.png"
 
 function AboutUs() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
   return (
     <div>
         <div>

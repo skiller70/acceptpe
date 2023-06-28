@@ -1,7 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import privacy from "/privacy.png"
+import Footer from '../components/Footer'
 
 function Privacy() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
+  
   return (
     <div className=' bg-[#F9FAFB] h-screen '>
       {/* BACKGROUND HERO
@@ -171,7 +177,7 @@ function Privacy() {
           </div>
       </div>
       {/* PRIVACY CONTENT */}
-
+         <Footer/>
     </div>
   )
 }
