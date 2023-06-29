@@ -50,8 +50,8 @@ function Neo() {
 
 
       {/* Banking Payments Accounting */}
-
-      {/* <div>
+{/* 
+      <div>
         <h1 className=' text-3xl text-center'>Banking the Payout Way</h1>
         <br />
         <p className=' text-center'>Powering new age businesses with Integrated & Comprehensive Current Account for managing Banking, Payments, Expenses and Working Capital.</p>

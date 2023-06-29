@@ -1,14 +1,15 @@
 import React from 'react'
+import developApi from "/developApi.gif"
 
 function WeareDeveloper() {
     return (
 
-        <div className=' relative flex flex-col  md:flex-row   items-center mx-8 md:m-16 py-6 md:py-0'>
+        <div className=' relative flex flex-col gap-8 md:flex-row   items-center mx-8 md:m-16 py-6 md:py-0'>
 
 
 
             <div className='flex-1'>
-
+                <img src={developApi}/>
             </div>
 
             <div className=' flex-1 '>

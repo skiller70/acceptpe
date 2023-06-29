@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import Navbar from "../components/Navbar"
 import Footer from "../components/Footer"
-import multiple from "/pay.jpg"
+import multiple from "/pay.png"
 import ePos from "/epos1.png"
 import eposShop from "/eposShop.gif"
 import eposMobileShop from "/eposMobileShop.gif"
@@ -33,13 +33,7 @@ function Epos() {
 
 
 
-      {/* <div className=' py-16'>
-        <div className='pb-16 text-center text-3xl'>Accept Payment through Multiple Payment Options</div>
 
-        <div className='  '>
-          <img src={multiple} alt=""  />
-        </div>
-      </div> */}
 
 
       <div className='mt-36 md:mt-0'>
@@ -56,6 +50,15 @@ function Epos() {
         <div >
           <FeaturesAccept />
         </div>
+
+
+        <div className=' p-16'>
+        <div className='pb-16 text-center text-3xl'>Accept Payment through Multiple Payment Options</div>
+
+        <div className='flex justify-center  '>
+          <img src={multiple} width={500} alt=""  />
+        </div>
+      </div>
 
         <div className=' md:m-32'>
           <BenefitAccept />

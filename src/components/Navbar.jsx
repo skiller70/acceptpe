@@ -140,13 +140,13 @@ function Navbar(props) {
 
             <div className={` ${navToggle ? "" : "hidden"} w-[100%] bg-white text-[#606C5D] py-10  font-bold fixed  z-50`}>
                 <div className=' text-[#ECBD00] w-[100%] flex h-full justify-center items-center flex-col gap-y-6'>
-                    <Link>Home</Link>
-                    <Link to="/gateway">Payment Gateway</Link>
-                    <Link to="/epos">ePOS</Link>
-                    <Link to="/payout">Payout</Link>
-                    <Link to="/aboutus">About us </Link>
-                    <Link>Blog </Link>
-                    <Link to="/contact">Contact us</Link>
+                    <Link onClick={()=>setNavToggle(false)} to="/" >Home</Link>
+                    <Link onClick={()=>setNavToggle(false)} to="/gateway">Payment Gateway</Link>
+                    <Link onClick={()=>setNavToggle(false)} to="/epos">ePOS</Link>
+                    <Link onClick={()=>setNavToggle(false)} to="/payout">Payout</Link>
+                    <Link onClick={()=>setNavToggle(false)} to="/aboutus">About us </Link>
+                    <Link onClick={()=>setNavToggle(false)} >Blog </Link>
+                    <Link onClick={()=>setNavToggle(false)} to="/contact">Contact us</Link>
                 </div>
             </div>
 

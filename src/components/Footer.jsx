@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <>
-      <div className=" px-16 flex flex-col md:flex-row text-[#ECBD00] shadow-lg">
+      <div className=" md:px-16 flex flex-col md:flex-row text-[#ECBD00] shadow-lg">
 
         {/* FOOTER LOGO */}
         <div className=" flex justify-center  md:justify-start ">
