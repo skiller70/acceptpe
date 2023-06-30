@@ -20,8 +20,21 @@ function AboutUs() {
       </div>
 
 
-      <div className='px-8 md:px-32 py-16 text-xl   leading-8 font-normal  '>
-        AcceptPe is a payment gateway that enables businesses to accept online payments securely and easily. With a focus on user experience, AcceptPe offers a simple and intuitive interface that allows merchants to easily manage transactions, view reports, and access customer support. Our payment platform uses advanced security protocols to ensure the safety of your customers' data, and our competitive pricing structure makes it an affordable solution for businesses of all sizes. At AcceptPe, we're committed to helping businesses succeed by providing a reliable and efficient payment processing service.
+      <div className='px-8 md:px-32 py-16 text-xl   leading-8  font-medium '>
+
+Accepte Payment Gateway offers a secure and reliable payment solution for your business. With our advanced payment gateway, you can easily accept payments from your customers. Whether you run an online store, a subscription-based service, or any other type of business, our payment gateway ensures a smooth and hassle-free payment process.
+<br />
+<br />
+One of the key features of Accepte Payment Gateway is its seamless payout system. You can easily transfer funds to your bank account or any other preferred payout method. We understand the importance of timely payouts for your business, which is why we ensure quick and efficient payout processing.
+<br />
+<br />
+Our payment solutions are designed to cater to businesses of all sizes. Whether you are a small startup or an established enterprise, Accepte Payment Gateway provides a flexible payment solution that meets your unique business needs. Our user-friendly interface makes it easy for you to manage and track your payments, helping you streamline your financial operations.
+<br />
+<br />
+Accepte Payment Gateway allows you to accept payments from various sources, including credit cards, debit cards, and online wallets. With our secure payment processing, you can offer your customers a convenient and trustworthy payment experience.
+<br />
+<br />
+Start accepting payments and enjoy the benefits of a reliable payment gateway for your business. Accepte Payment Gateway ensures secure transactions, seamless payout, and a user-friendly interface. Take your business to new heights by offering your customers a convenient and efficient payment solution
       </div>
 
 

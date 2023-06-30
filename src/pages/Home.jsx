@@ -110,7 +110,7 @@ function Home() {
         <div className='flex-1'>
           <h1 className=' text-3xl '> Seamless checkouts with AcceptPe online payment gateway</h1>
           <br />
-          <p className=' text-lg'>Embed the hosted checkout page on your website or app easily and offer seamless checkouts for your customers</p>
+          <p className=' text-lg'>With AcceptPe, you can easily embed their hosted checkout page on your website or app. This allows your customers to make secure and convenient payments without ever leaving your platform. By offering a seamless checkout process, you can enhance the overall user experience and increase customer satisfaction. Start accepting payments with AcceptPe and watch your conversion rates soar!</p>
         </div>
         <div className='flex-1 flex justify-center'>
 
