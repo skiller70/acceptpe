@@ -21,9 +21,9 @@ function Epos() {
       <div className=' h-screen flex flex-col md:flex-row  md:px-20'>
 
         <div className='flex-1 order-last md:order-first  flex flex-col my-16 px-8 md:my-36 '>
-          <h1 className='text-4xl   font-semibold ' >Accept payments conveniently using UPI QR and Payment Links</h1>
+          <h1 className='text-4xl   font-semibold text-[#ECBD00] ' >Accept payments conveniently using UPI QR and Payment Links</h1>
           <br />
-          <p className='  font-medium'>Get a Current Account with connected banking, Payment Gateway with 100+ modes, Payouts with Zero-cooling Period, Expense Management with Prepaid Cards, and Working Capital for your business growth needs.</p>
+          <p className='  font-medium text-gray-700'>Get a Current Account with connected banking, Payment Gateway with 100+ modes, Payouts with Zero-cooling Period, Expense Management with Prepaid Cards, and Working Capital for your business growth needs.</p>
         </div>
         <div className='flex-1' >
           {/* <video src={mobilevideo} controls autostart autoPlay alt="neo hero" type="video/mp4" /> */}
@@ -37,7 +37,7 @@ function Epos() {
 
 
       <div className='mt-36 md:mt-0'>
-        <p className=' relative text-center  text-3xl  font-semibold pb-6'>AcceptPe ePOS is for You</p>
+        <p className=' relative text-center  text-3xl  font-semibold pb-6 text-[#ECBD00] '>AcceptPe ePOS is for You</p>
         <div className='hidden md:flex justify-center'>
           <img src={eposShop} alt="" />
         </div>
@@ -53,7 +53,7 @@ function Epos() {
 
 
         <div className=' p-16'>
-        <div className='pb-16 text-center text-3xl'>Accept Payment through Multiple Payment Options</div>
+        <div className='pb-16 text-center text-3xl text-[#ECBD00]  font-medium '>Accept Payment through Multiple Payment Options</div>
 
         <div className='flex justify-center  '>
           <img src={multiple} width={500} alt=""  />

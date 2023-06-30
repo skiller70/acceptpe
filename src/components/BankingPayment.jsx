@@ -18,7 +18,7 @@ function BankingPayment() {
                 {/* IMAGE */}
                 <div className='flex-1 md:mx-32'>
                     <div className=' grid grid-cols-1 md:grid-cols-2 gap-6'>
-                        <div className=' font-semibold border-2 rounded-3xl shadow-md flex flex-col items-center  py-16  md:py-32 gap-y-4 border-[#ECBD00]'>
+                        <div className=' font-semibold border-2 rounded-3xl shadow-md flex flex-col items-center  py-16  md:py-32 gap-y-4 border-[#ECBD00] '>
                             <img src={CurrentAccount} alt="" />
                             Feature-packed Current Account</div>
 

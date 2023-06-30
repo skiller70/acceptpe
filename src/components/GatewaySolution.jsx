@@ -33,7 +33,7 @@ function GatewaySolution() {
 
               </div>
                     
-                    <div className=' text-sm text-justify leading-normal'>
+                    <div className=' text-sm font-medium text-gray-700 text-justify leading-normal'>
                         <br />
                         <br />
                     When it comes to choosing a payment gateway solution for your business, there are numerous options available in the market. However, if you are looking for a reliable and secure payment gateway that can seamlessly integrate with your website or mobile app, AcceptPe is the perfect choice. With its advanced features, exceptional customer support, and competitive pricing, AcceptPe stands out as a top-notch payment gateway solution. In this article, we will delve into the reasons why AcceptPe should be your go-to payment gateway solution.

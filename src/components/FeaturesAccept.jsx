@@ -11,9 +11,9 @@ function FeaturesAccept() {
     return (
         <div className='flex md:flex-row flex-col mx-4 gap-y-6 md:gap-y-0 my-16  md:mx-32'>
             <div className=' flex-1 flex  flex-col  justify-center'>
-                <h1 className=' text-2xl flex items-center  font-semibold'><img src={epos} width={100} alt="Accept Epos" /> Features of AcceptPe ePOS</h1>
+                <h1 className=' text-2xl flex items-center  font-semibold text-[#ECBD00] '><img src={epos} width={100} alt="Accept Epos" /> Features of AcceptPe ePOS</h1>
                 <br />
-                <p>Accept payments conveniently using UPI QR and Payment links at Retail Stores & during home deliveries.</p>
+                <p className=' text-gray-700 font-medium'>Accept payments conveniently using UPI QR and Payment links at Retail Stores & during home deliveries.</p>
             </div>
 
             <div className=' flex-1'>

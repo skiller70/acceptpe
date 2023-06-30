@@ -7,7 +7,7 @@ function BenefitAccept() {
     return (
         <div className='mx-8 md:mx-16'>
 
-            <h1 className=' px-4  md:px-0 text-xl font-semibold flex items-center gap-x-4'> <img width={50} src={epos} /> Benefits of AcceptPe ePOS</h1>
+            <h1 className=' px-4  md:px-0 text-xl font-semibold flex items-center gap-x-4 text-[#ECBD00] '> <img width={50} src={epos} /> Benefits of AcceptPe ePOS</h1>
             <br />
 
             <div className='flex md:flex-row flex-col gap-y-10 md:gap-y-0 md:gap-x-10'>

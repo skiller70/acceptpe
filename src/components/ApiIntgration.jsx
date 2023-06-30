@@ -16,7 +16,7 @@ function ApiIntgration() {
                 <div className=' flex-1 md:px-16 order-1 mx-10'>
                     <h1 className='text-4xl font-semibold  text-[#ECBD00]'>Payment gateway integration is simple and easy</h1>
                     <br />
-                    <p className='text-[#ECBD00]'>AcceptPe payment gateway comes with simple SDKs and APIs along with detailed API documentation</p>
+                    <p className=' text-gray-700 font-medium'>AcceptPe payment gateway comes with simple SDKs and APIs along with detailed API documentation</p>
                         <br/>
                     <button className='px-4 py-2 bg-[#ECBD00] rounded-md text-white'>View API docs</button>
                 </div>

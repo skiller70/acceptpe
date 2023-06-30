@@ -21,8 +21,8 @@ export default function Footer() {
           <div className="flex gap-y-2   flex-col">
             <h1 className=" font-bold">Products</h1>
 
-
-            <Link to="/gateway">Payment Gateway</Link>
+           
+            <Link   to="/gateway">Payment Gateway</Link>
             <Link to="/epos">ePOS</Link>
             <Link to="/payout">Payout</Link>
           </div>

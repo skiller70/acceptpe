@@ -20,12 +20,12 @@ export default function Landing() {
         <div className=" w-[100%] h-[100%]  absolute">
 
           <div className=" flex-1 p-20">
-            <ul className=" font-semibold text-4xl gap-y-2 flex flex-col"><li>Best payment gateway for</li>
+            <ul className=" font-semibold text-4xl gap-y-2 flex flex-col text-[#ECBD00]"><li>Best payment gateway for</li>
               <li> accepting online payments </li>
               <li> for your business  </li>
             </ul>
             <br />
-            <p className=" font-medium w-[40%]">Get onboarded with Acceptpe payment gateway that offers industry best success rates along with 100+ payment modes and seamless checkouts.</p>
+            <p className=" font-medium w-[40%] text-gray-600 ">Get onboarded with Acceptpe payment gateway that offers industry best success rates along with 100+ payment modes and seamless checkouts.</p>
           </div>
           <div className=" flex-1"></div>
 

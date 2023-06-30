@@ -27,9 +27,9 @@ function Neo() {
       <div className='relative h-screen flex flex-col md:flex-row px-4  md:px-20'>
 
         <div className='flex-1 order-last md:order-first  flex flex-col  justify-center'>
-          <h1 className='text-5xl   font-semibold ' >Business banking made smart with</h1>
+          <h1 className='text-5xl   font-semibold text-[#ECBD00]  ' >Business banking made smart with</h1>
           <br />
-          <p>Get a Current Account with connected banking, Payment Gateway with 100+ modes, Payouts with Zero-cooling Period, Expense Management with Prepaid Cards, and Working Capital for your business growth needs.</p>
+          <p className=' font-medium text-gray-600'>Get a Current Account with connected banking, Payment Gateway with 100+ modes, Payouts with Zero-cooling Period, Expense Management with Prepaid Cards, and Working Capital for your business growth needs.</p>
         </div>
         <div className='flex-1 ' >
           {/* <video src={mobilevideo} controls autostart autoPlay alt="neo hero" type="video/mp4" /> */}
@@ -44,7 +44,7 @@ function Neo() {
       <div className=' my-16'>
 
         <BankingPayment />
-      </div>
+      </div>  
 
 
 
