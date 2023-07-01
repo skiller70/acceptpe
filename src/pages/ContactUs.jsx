@@ -16,18 +16,18 @@ function ContactUs() {
             <div>
                 <h1 className=' text-2xl lg:text-3xl  text-center py-16  text-gray-600'> Our team is here to help</h1>
                 <div className=' flex justify-center'>
-                <div className=' gap-y-16 md:gap-y-0 grid md:grid-cols2  lg:grid-cols-3 grid-cols-1 md:mx-20 mx-8 lg:mx-56 gap-x-10'>
-                    {/* ----------------------------------------- */}
-                    <div className='bg-[#ECBD00] px-4  text-white h-56 rounded-xl shadow-lg'>
-                        <h1 className=' font-semibold text-xl py-4 '>Support</h1>
-                        <div className='font-medium flex flex-col gap-y-2'>
-                            <p className='flex gap-x-2 items-center text-md'><FontAwesomeIcon icon={faPhone} />‎+91 22 4963 9334 </p>
+                    <div className=' gap-y-16 md:gap-y-0 grid md:grid-cols2  lg:grid-cols-3 grid-cols-1 md:mx-20 mx-8 lg:mx-56 gap-x-10'>
+                        {/* ----------------------------------------- */}
+                        <div className='bg-[#ECBD00] px-4  text-white h-56 rounded-xl shadow-lg'>
+                            <h1 className=' font-semibold text-xl py-4 '>Support</h1>
+                            <div className='font-medium flex flex-col gap-y-2'>
+                                <p className='flex gap-x-2 items-center text-md'><FontAwesomeIcon icon={faPhone} />‎+91 22 4963 9334 </p>
 
-                            <p className=' flex gap-x-2 items-center text-md'><FontAwesomeIcon icon={faAt} />faizan@acceptpe.com</p>
+                                <p className=' flex gap-x-2 items-center text-md'><FontAwesomeIcon icon={faAt} />faizan@acceptpe.com</p>
+                            </div>
                         </div>
-                    </div>
-                    {/* ----------------------------------------- */}
-                    {/* <div className='bg-[white] px-4  text-gray-500  h-56 rounded-xl shadow-lg'>
+                        {/* ----------------------------------------- */}
+                        {/* <div className='bg-[white] px-4  text-gray-500  h-56 rounded-xl shadow-lg'>
                         <h1 className='font-semibold text-xl py-4 '>Grievances</h1>
                         <div className='font-medium flex flex-col gap-y-2'>
                             <p className='flex gap-x-2 items-center text-md'><FontAwesomeIcon icon={faPhone} />35008670 </p>
@@ -37,26 +37,26 @@ function ContactUs() {
                             <p>Himanshu Sharma  </p>
                         </div>
                     </div> */}
-                    {/* ----------------------------------------- */}
-                    <div className=' bg-[white] px-4  text-gray-500  h-56 rounded-xl shadow-lg'>
-                        <h1 className='font-semibold text-xl py-4 '>Partner Program</h1>
-                        <div className='font-medium flex flex-col gap-y-2'>
-                            <p className='flex gap-x-2 items-center text-md'><FontAwesomeIcon icon={faAt} />himanshu@acceptpe.com </p>
+                        {/* ----------------------------------------- */}
+                        <div className=' bg-[white] px-4  text-gray-500  h-56 rounded-xl shadow-lg'>
+                            <h1 className='font-semibold text-xl py-4 '>Partner Program</h1>
+                            <div className='font-medium flex flex-col gap-y-2'>
+                                <p className='flex gap-x-2 items-center text-md'><FontAwesomeIcon icon={faAt} />himanshu@acceptpe.com </p>
 
-                            <p className=' flex gap-x-2 items-center text-md'>For partner related queries contact us</p>
+                                <p className=' flex gap-x-2 items-center text-md'>For partner related queries contact us</p>
+                            </div>
                         </div>
-                    </div>
-                    {/* ----------------------------------------- */}
-                    <div className='bg-[#ECBD00] px-4   text-white h-56 rounded-xl shadow-lg'>
-                        <h1 className='font-semibold text-xl py-4 '>Human Resources</h1>
-                        <div className='font-medium flex flex-col gap-y-2'>
-                            <p className=' flex gap-x-2 items-center text-md'><FontAwesomeIcon icon={faAt} />faizan@acceptpe.com</p>
-                            <p>Drop in your Resume if you want to be a part of our amazing team.</p>
+                        {/* ----------------------------------------- */}
+                        <div className='bg-[#ECBD00] px-4   text-white h-56 rounded-xl shadow-lg'>
+                            <h1 className='font-semibold text-xl py-4 '>Human Resources</h1>
+                            <div className='font-medium flex flex-col gap-y-2'>
+                                <p className=' flex gap-x-2 items-center text-md'><FontAwesomeIcon icon={faAt} />faizan@acceptpe.com</p>
+                                <p>Drop in your Resume if you want to be a part of our amazing team.</p>
+                            </div>
                         </div>
+
+
                     </div>
-
-
-                </div>
                 </div>
             </div>
             {/* Our team is here to help     */}
@@ -93,10 +93,11 @@ function ContactUs() {
                                 State
                             </label>
                             <div className="relative">
-                                <select className="block appearance-none w-full  border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-state">
+                                <select className="block appearance-none w-full  border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500 " id="grid-state">
                                     <option>Choose one</option>
-                                    <option>Missouri</option>
-                                    <option>Texas</option>
+                                    <option>Customer</option>
+                                    <option>Existing Merchant</option>
+                                    <option>New SignUp / Enquiry</option>
                                 </select>
                                 <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
                                     <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" /></svg>

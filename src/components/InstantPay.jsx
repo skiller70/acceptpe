@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import quick from "/quick.png"
+import quickP from "/quickP.png"
 import bulkP from "/bulkP.png"
 import payoutP from "/payoutP.png"
 
@@ -21,7 +21,7 @@ function InstantPay() {
             <div className='hidden md:flex items-center justify-center'>
                 <div className=' flex-1'>
                 <div className={` ${paymentMethod == "quick"?"flex":"hidden"}`}>
-                <img src={quick}/>
+                <img src={quickP}/>
                 </div>
 
                 <div className={` ${paymentMethod == "Bulk"?"flex":"hidden"}`}>
@@ -70,7 +70,7 @@ function InstantPay() {
                     </div>
 
                     <div className=' flex-1'>
-                    <img src={quick}/>
+                    <img src={quickP}/>
                     </div>
                 </div>
 
@@ -83,7 +83,7 @@ function InstantPay() {
                         <p>Add beneficiaries and do up to 10,000 bulk payouts in one go with simple excel file upload. Track transfer status in real time and know exact reason for failure.</p>
                     </div>
 
-                    <div className=' flex-1'>
+                    <div className='my-6 flex-1'>
                     <img src={bulkP}/>
                     </div>
                 </div>

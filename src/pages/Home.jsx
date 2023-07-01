@@ -14,6 +14,8 @@ import setting from "/setting.png"
 import chart from "/chart.png"
 import dash from "/dash.png"
 import mainHero from "/mainHero.gif"
+import seamlessP from "/seamlessP.png"
+import seamlessPM from "/seamlessPM.png"
 
 function Home() {
 
@@ -105,20 +107,37 @@ function Home() {
 
       {/* Seamless checkouts with Accept Pe */}
 
-      <div className=' bg-[#ECBD00] text-white px-10 flex-col md:flex-row flex py-16 items-center '>
+      <div className='relative  hidden  md:flex mb-32 mt-16'>
 
-        <div className='flex-1'>
-          <h1 className=' text-3xl '> Seamless checkouts with AcceptPe online payment gateway</h1>
+       <div className=' absolute   px-10 flex-col md:flex-row flex py-16 items-center'>
+       <div className='flex-1'>
+          <h1 className=' text-3xl  text-gray-700 font-semibold '> Seamless checkouts with AcceptPe online payment gateway</h1>
           <br />
-          <p className=' text-lg'>With AcceptPe, you can easily embed their hosted checkout page on your website or app. This allows your customers to make secure and convenient payments without ever leaving your platform. By offering a seamless checkout process, you can enhance the overall user experience and increase customer satisfaction. Start accepting payments with AcceptPe and watch your conversion rates soar!</p>
+          <p className=' text-lg font-medium text-gray-700'>With AcceptPe, you can easily embed their hosted checkout page on your website or app. This allows your customers to make secure and convenient payments without ever leaving your platform. By offering a seamless checkout process, you can enhance the overall user experience and increase customer satisfaction. Start accepting payments with AcceptPe and watch your conversion rates soar!</p>
         </div>
         <div className='flex-1 flex justify-center'>
 
-          <img src={seamlessC} alt="" height={200} />
+          
 
         </div>
+       </div>
 
+<img src={seamlessP} alt="" />
       </div>
+
+
+      <div className=' md:hidden  gap-y-10  px-10 flex-col flex py-16 items-center'>
+       <div className='flex-1'>
+          <h1 className=' text-3xl  text-gray-700 font-semibold '> Seamless checkouts with AcceptPe online payment gateway</h1>
+          <br />
+          <p className=' text-lg font-medium text-gray-700'>With AcceptPe, you can easily embed their hosted checkout page on your website or app. This allows your customers to make secure and convenient payments without ever leaving your platform. By offering a seamless checkout process, you can enhance the overall user experience and increase customer satisfaction. Start accepting payments with AcceptPe and watch your conversion rates soar!</p>
+        </div>
+        <div className='flex-1 flex justify-center'>
+
+              <img  src={seamlessPM}/>
+
+        </div>
+       </div>
 
       {/* Seamless checkouts with Accept Pe */}
 
