@@ -35,9 +35,7 @@ function Home() {
             <h1 className=' text-2xl md:text-3xl lg:text-5xl font-bold  text-left lg:w-[95%] leading-none  md:leading-tight lg:leading-normal text-[#ECBD00]'>  Safe-secure-seamless payment  solution for your business </h1>
 
             <br />
-            <p className='   font-medium text-gray-700  '>We provide a comprehensive payment solution designed to meet the unique requirements of businesses across various industries and sizes. Our secure and dependable platform enables you to effortlessly accept customer payments while streamlining your financial processes. Get in touch with us today to discover more about the outstanding payment services we offer for your business. 
-
-              Sign up n</p>
+            <p className='   font-medium text-gray-700  '>We provide a comprehensive payment solution designed to meet the unique requirements of businesses across various industries and sizes. Our secure and dependable platform enables you to effortlessly accept customer payments while streamlining your financial processes. Get in touch with us today to discover more about the outstanding payment services we offer for your business. </p>
           </div>
 
 

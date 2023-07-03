@@ -18,7 +18,7 @@ function ApiIntgration() {
                     <br />
                     <p className=' text-gray-700 font-medium'>AcceptPe payment gateway comes with simple SDKs and APIs along with detailed API documentation</p>
                         <br/>
-                    <button className='px-4 py-2 bg-[#ECBD00] rounded-md text-white'>View API docs</button>
+                    {/* <button className='px-4 py-2 bg-[#ECBD00] rounded-md text-white'>View API docs</button> */}
                 </div>
             </div>
 
