@@ -14,6 +14,8 @@ import payoutM from "/payoutM.gif"
 import payoutmain from "/payoutmain.gif"
 import OneStop from '../components/OneStop'
 import PayoutsR from '../components/PayoutsR'
+import ExploreProduct from '../components/ExploreProduct'
+import AcceptGram from '../components/AcceptGram'
 
 
 function Neo() {
@@ -31,7 +33,7 @@ function Neo() {
         <div className='flex-1 order-last md:order-first  flex flex-col  justify-center'>
           <h1 className='text-5xl   font-semibold text-[#ECBD00]  ' >Safe secure seamless payout for your Business</h1>
           <br />
-          <p className=' font-medium text-gray-600'>Get a Current Account with connected banking, Payment Gateway with 100+ modes, Payouts with Zero-cooling Period, Expense Management with Prepaid Cards, and Working Capital for your business growth needs.</p>
+          <p className=' font-medium text-gray-600'>AcceptPe Payouts are a reliable solution that empowers businesses to make vendor payments and customer payouts efficiently at scale. With its ability to operate 24x7, even on bank holidays, Payouts ensures that your payment processes are never disrupted. By leveraging the power of automation, this tool allows you to save time, reduce errors, and provide a seamless experience to both your vendors and customers.</p>
         </div>
         <div className='flex-1 ' >
           {/* <video src={mobilevideo} controls autostart autoPlay alt="neo hero" type="video/mp4" /> */}
@@ -78,7 +80,13 @@ function Neo() {
         {/* <PayoutsR/> */}
 <div className=' my-16'>
 <OneStop/>
+</div>  
+
+
+<div>
+  <ExploreProduct/>
 </div>
+<AcceptGram/>
       <Footer />
     </>
   )

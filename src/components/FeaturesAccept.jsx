@@ -25,12 +25,12 @@ function FeaturesAccept() {
                     <li className=' border-2  p-2 rounded-lg flex  items-center gap-x-3'> <img src={PaymentLink} /> Payment link
                     </li>
                     <li className=' border-2  p-2 rounded-lg  flex  items-center gap-x-3 '><img src={Invoice} />  Invoice for payment</li>
-                    <li className=' border-2  p-2 rounded-lg flex  items-center gap-x-3 '><img src={Withdraw}  />  Withdraw money anytime to bank account</li>
+                    <li className=' border-2  p-2 rounded-lg flex  items-center gap-x-3 '><img src={Withdraw} />  Withdraw money anytime to bank account</li>
                     <li className=' border-2  p-2 rounded-lg flex  items-center gap-x-3 '><img src={Hardware} />  Eliminates the need of POS hardware </li>
                     <li className=' border-2  p-2 rounded-lg flex  items-center gap-x-3'><img src={securePayment} /> Secure payment transactions through the reliable group </li>
                     <li className=' border-2  p-2 rounded-lg flex  items-center gap-x-3'> <img src={supportTeam} />  Backed by dedicated support team</li>
                 </ul>
-            </div>  
+            </div>
         </div>
     )
 }

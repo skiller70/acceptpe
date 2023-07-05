@@ -83,7 +83,7 @@ function PayoutsR() {
                     <img src={ ExternalCredit} alt="" width={50} />
                    
                     {/* IMG */}
-                    <h1 className='my-2 font-semibold'> Cashfree Wallet
+                    <h1 className='my-2 font-semibold'> AcceptPe Wallet
 
 </h1>
                     <div className=' flex flex-col gap-y-2'>
@@ -102,7 +102,7 @@ function PayoutsR() {
                     <img src={PaytmWallets} alt="" width={50} />
 
                     {/* IMG */}
-                    <h1 className='my-2 font-semibold'> Paytm Wallets</h1>
+                    <h1 className='my-2 font-semibold'>Paytm Wallets</h1>
                     <div className=' flex flex-col gap-y-2'>
 
                     <p className=' flex gap-x-2'><div><FontAwesomeIcon color='#17ee7b' icon={faCircleCheck} /></div>No need for separate integration</p>

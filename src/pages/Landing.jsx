@@ -20,12 +20,12 @@ export default function Landing() {
         <div className=" w-[100%] h-[100%]  absolute">
 
           <div className=" flex-1 p-20">
-            <ul className=" font-semibold text-4xl gap-y-2 flex flex-col text-[#ECBD00]"><li>Best payment gateway for</li>
-              <li> accepting online payments </li>
-              <li> for your business  </li>
+            <ul className=" font-semibold text-4xl gap-y-2 flex flex-col text-[#ECBD00]"><li>Start accepting online  </li>
+              <li> payments with AcceptPe - the best</li>
+              <li>payment gateway for your business.  </li>
             </ul>
             <br />
-            <p className=" font-medium w-[40%] text-gray-600 ">Get onboarded with Acceptpe payment gateway that offers industry best success rates along with 100+ payment modes and seamless checkouts.</p>
+            <p className=" font-medium w-[50%] text-gray-600 ">Acceptpe Payment Gateway, you are opting for a reliable and feature-rich payment solution. With industry-best success rates, a wide range of payment modes, and seamless checkouts, Acceptpe empowers your business to offer a smooth and convenient payment experience to your customers. Get onboard with Acceptpe today and take your business to new heights of success.</p>
           </div>
           <div className=" flex-1"></div>
 
@@ -44,11 +44,11 @@ export default function Landing() {
           <img src={mainMobile} alt="" />
         </div>
 
-        <div className=" px-8">   <h1 className=" text-2xl font-semibold   justify-center items-center">
-          Best payment gateway for accepting online payments for your business
+        <div className=" px-8">   <h1 className=" text-2xl font-semibold text-[#ECBD00]  justify-center items-center">
+        Start accepting online payments with AcceptPe - the best payment gateway for your business.
         </h1>
         <br />
-        <p>Get onboarded with Acceptpe payment gateway that offers industry best success rates along with 100+ payment modes and seamless checkouts.</p>
+        <p>Acceptpe Payment Gateway, you are opting for a reliable and feature-rich payment solution. With industry-best success rates, a wide range of payment modes, and seamless checkouts, Acceptpe empowers your business to offer a smooth and convenient payment experience to your customers. Get onboard with Acceptpe today and take your business to new heights of success.</p>
         </div>
 
 

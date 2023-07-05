@@ -1,6 +1,6 @@
 import React from 'react'
 
-import plug from "/Plug-and-play APIs.png"
+import plugG from "/plugG.png"
 import secure from "/secure.png"
 import success from "/success.png"
 import support from "/support.png"
@@ -23,7 +23,7 @@ function WhyAccept() {
                     <br />
                     <div className=' grid grid-cols-1 md:grid-cols-3 gap-y-16 text-gray-700 font-medium '>
                         <div className=' '> 
-                            <img src={plug} alt="" width={40} />
+                            <img src={plugG} alt="" width={40} />
                             <h1 className=' font-bold text-[#ECBD00] '>Plug-and-play APIs</h1>
                             <br />
                             <p className='w-[75%] font-medium'>We offer easy to integrate and developer-friendly plug-and-play APIs that comes with detailed API docs</p>
